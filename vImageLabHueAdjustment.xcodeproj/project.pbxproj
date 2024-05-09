@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE04127A2BD5BFD700235685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0412792BD5BFD700235685 /* AppDelegate.swift */; };
+		EE04127C2BD5BFD700235685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04127B2BD5BFD700235685 /* ViewController.swift */; };
+		EE04127E2BD5BFD800235685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE04127D2BD5BFD800235685 /* Assets.xcassets */; };
+		EE0412812BD5BFD800235685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE04127F2BD5BFD800235685 /* Main.storyboard */; };
+		EE04128B2BD5C08000235685 /* LabHueRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04128A2BD5C08000235685 /* LabHueRotate.swift */; };
+		EE04128D2BD5C08C00235685 /* Flowers_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EE04128C2BD5C08C00235685 /* Flowers_1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE0412762BD5BFD700235685 /* vImageLabHueAdjustment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vImageLabHueAdjustment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0412792BD5BFD700235685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE04127B2BD5BFD700235685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE04127D2BD5BFD800235685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0412802BD5BFD800235685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE0412822BD5BFD800235685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0412832BD5BFD800235685 /* vImageLabHueAdjustment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vImageLabHueAdjustment.entitlements; sourceTree = "<group>"; };
+		EE04128A2BD5C08000235685 /* LabHueRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabHueRotate.swift; sourceTree = "<group>"; };
+		EE04128C2BD5C08C00235685 /* Flowers_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flowers_1.png; sourceTree = "<group>"; };
+		EEF1E64C2BD67230006B000C /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; wrapsLines = 1; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0412732BD5BFD700235685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE04126D2BD5BFD700235685 = {
+			isa = PBXGroup;
+			children = (
+				EEF1E64C2BD67230006B000C /* Readme.md */,
+				EE0412892BD5C04F00235685 /* Images */,
+				EE0412782BD5BFD700235685 /* vImageLabHueAdjustment */,
+				EE0412772BD5BFD700235685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0412772BD5BFD700235685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0412762BD5BFD700235685 /* vImageLabHueAdjustment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0412782BD5BFD700235685 /* vImageLabHueAdjustment */ = {
+			isa = PBXGroup;
+			children = (
+				EE0412792BD5BFD700235685 /* AppDelegate.swift */,
+				EE04127B2BD5BFD700235685 /* ViewController.swift */,
+				EE04128A2BD5C08000235685 /* LabHueRotate.swift */,
+				EE04127D2BD5BFD800235685 /* Assets.xcassets */,
+				EE04127F2BD5BFD800235685 /* Main.storyboard */,
+				EE0412822BD5BFD800235685 /* Info.plist */,
+				EE0412832BD5BFD800235685 /* vImageLabHueAdjustment.entitlements */,
+			);
+			path = vImageLabHueAdjustment;
+			sourceTree = "<group>";
+		};
+		EE0412892BD5C04F00235685 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EE04128C2BD5C08C00235685 /* Flowers_1.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE0412752BD5BFD700235685 /* vImageLabHueAdjustment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0412862BD5BFD800235685 /* Build configuration list for PBXNativeTarget "vImageLabHueAdjustment" */;
+			buildPhases = (
+				EE0412722BD5BFD700235685 /* Sources */,
+				EE0412732BD5BFD700235685 /* Frameworks */,
+				EE0412742BD5BFD700235685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vImageLabHueAdjustment;
+			productName = vImageLabHueAdjustment;
+			productReference = EE0412762BD5BFD700235685 /* vImageLabHueAdjustment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE04126E2BD5BFD700235685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = com.incremental.innovation;
+				TargetAttributes = {
+					EE0412752BD5BFD700235685 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = EE0412712BD5BFD700235685 /* Build configuration list for PBXProject "vImageLabHueAdjustment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE04126D2BD5BFD700235685;
+			productRefGroup = EE0412772BD5BFD700235685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0412752BD5BFD700235685 /* vImageLabHueAdjustment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0412742BD5BFD700235685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE04128D2BD5C08C00235685 /* Flowers_1.png in Resources */,
+				EE04127E2BD5BFD800235685 /* Assets.xcassets in Resources */,
+				EE0412812BD5BFD800235685 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE0412722BD5BFD700235685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE04128B2BD5C08000235685 /* LabHueRotate.swift in Sources */,
+				EE04127C2BD5BFD700235685 /* ViewController.swift in Sources */,
+				EE04127A2BD5BFD700235685 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE04127F2BD5BFD800235685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0412802BD5BFD800235685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE0412842BD5BFD800235685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE0412852BD5BFD800235685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EE0412872BD5BFD800235685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = vImageLabHueAdjustment/vImageLabHueAdjustment.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = vImageLabHueAdjustment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = incremental.innovation.vImageLabHueAdjustment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE0412882BD5BFD800235685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = vImageLabHueAdjustment/vImageLabHueAdjustment.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = vImageLabHueAdjustment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = incremental.innovation.vImageLabHueAdjustment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE0412712BD5BFD700235685 /* Build configuration list for PBXProject "vImageLabHueAdjustment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0412842BD5BFD800235685 /* Debug */,
+				EE0412852BD5BFD800235685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0412862BD5BFD800235685 /* Build configuration list for PBXNativeTarget "vImageLabHueAdjustment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0412872BD5BFD800235685 /* Debug */,
+				EE0412882BD5BFD800235685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE04126E2BD5BFD700235685 /* Project object */;
+}
