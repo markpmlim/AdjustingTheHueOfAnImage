@@ -12,7 +12,7 @@ Based on Apple's `Adjusting the hue of an image` distributed with XCode 11.6
 The colours of the rendered image are not correct for -90, 90, 180 degrees; only a rotation of 0 degree is correct. 
 <br />
 
-![Hue Angle Rotation=-90](Documentation/Rotation-90.png)
+![](Documentation/Rotation-90.png)
 
 ![](Documentation/Rotation90.png)
 
