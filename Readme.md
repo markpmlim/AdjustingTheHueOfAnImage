@@ -1,4 +1,4 @@
-## Convert an RGB image to L*a*b* color space and apply hue adjustment
+## Convert an RGB image to Lab color space and apply hue adjustment
 <br />
 <br />
 
