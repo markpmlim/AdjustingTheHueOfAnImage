@@ -53,10 +53,21 @@ class LabHueRotate
         }
         // Use the vImage_CGImageFormat init(cgImage:) to create the RGB format from
         // the source image.
-        // bitmapInfo is non-premultiplied RGBA (not non-premultiplied ARGB)
-        rgbImageFormat = vImage_CGImageFormat(cgImage: sourceCGImage)!
-
+        // bitmapInfo is CGImageAlphaInfo.last.rawValue (non-premultiplied RGBA)
         self.sourceCGImage = sourceCGImage
+        rgbImageFormat = vImage_CGImageFormat(cgImage: sourceCGImage)!
+/*
+        // XRGB
+        let bitmapInfo = CGBitmapInfo(
+            rawValue: CGImageAlphaInfo.noneSkipFirst.rawValue
+        )
+        rgbImageFormat = vImage_CGImageFormat(
+            bitsPerComponent: 8,
+            bitsPerPixel: 8*4,
+            colorSpace: CGColorSpaceCreateDeviceRGB(),
+            bitmapInfo: bitmapInfo,
+            renderingIntent: .defaultIntent)!
+*/
 
         // 3. Create RGB-to-L*a*b* and L*a*b*-to-RGB Converters
         do {
@@ -93,6 +104,14 @@ class LabHueRotate
         }
         catch {
             fatalError("Unable to create the argbSourceBuffer source failed.")
+        }
+
+        // Debugging
+        let rawPtr = argbSourceBuffer.data
+        var bufferPtr = rawPtr?.assumingMemoryBound(to: UInt8.self)
+        for _ in 0..<2 * rgbImageFormat.componentCount {
+            print(bufferPtr?.pointee)
+            bufferPtr = bufferPtr?.advanced(by: 1)
         }
     }
 
