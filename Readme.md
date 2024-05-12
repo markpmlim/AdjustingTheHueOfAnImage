@@ -22,6 +22,36 @@ The colours of the rendered image are not correct for -90, 90, 180 degrees; only
 <br />
 
 Applying the call `vImagePermuteChannels_ARGB8888` to change the ordering of the colour channels does not help.
+
+We  also tried create the `rgbImageFormat` in 2 different ways.
+
+Method 1: Use the initializer of vImage_CGImageFormat 
+
+**init(cgImage:)** 
+
+to create the RGB image format from the source image.
+
+    rgbImageFormat = vImage_CGImageFormat(cgImage: sourceCGImage)!
+
+Method 2: Use the initializer of vImage_CGImageFormat 
+
+**init(bitsPerComponent:bitsPerPixel:colorSpace:bitmapInfo:version:decode:renderingIntent:)**
+
+to create the RGB image format from the source image.
+
+    let bitmapInfo = CGBitmapInfo(
+        rawValue: CGImageAlphaInfo.noneSkipFirst.rawValue
+    )
+    rgbImageFormat = vImage_CGImageFormat(
+    bitsPerComponent: 8,
+    bitsPerPixel: 8*4,
+    colorSpace: CGColorSpaceCreateDeviceRGB(),
+    bitmapInfo: bitmapInfo,
+    renderingIntent: .defaultIntent)!
+
+
+The same images are rendered at the  `hueAngle` of -90, 0, 90, 180 degrees.
+
 <br />
 <br />
 
