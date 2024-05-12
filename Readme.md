@@ -23,9 +23,9 @@ The colours of the rendered image are not correct for -90, 90, 180 degrees; only
 
 Applying the call `vImagePermuteChannels_ARGB8888` to change the ordering of the colour channels does not help.
 
-We  also tried create the `rgbImageFormat` in 2 different ways.
+We  also tried create the `rgbImageFormat` variable in 2 different ways.
 
-Method 1: Use the initializer of vImage_CGImageFormat 
+**Method 1:** Use the initializer of vImage_CGImageFormat 
 
 **init(cgImage:)** 
 
@@ -33,7 +33,7 @@ to create the RGB image format from the source image.
 
     rgbImageFormat = vImage_CGImageFormat(cgImage: sourceCGImage)!
 
-Method 2: Use the initializer of vImage_CGImageFormat 
+**Method 2:** Use the following initializer of vImage_CGImageFormat 
 
 **init(bitsPerComponent:bitsPerPixel:colorSpace:bitmapInfo:version:decode:renderingIntent:)**
 
