@@ -50,7 +50,7 @@ to create the RGB image format from the source image.
     renderingIntent: .defaultIntent)!
 
 
-The same images are rendered at the  `hueAngle` of -90, 0, 90, 180 degrees.
+The same set of results are obtained for the hueAngles -90, 0, 90, 180 degrees.
 
 <br />
 <br />
