@@ -107,12 +107,11 @@ class LabHueRotate
         }
 
         // Debugging
-        let rawPtr = argbSourceBuffer.data
-        var bufferPtr = rawPtr?.assumingMemoryBound(to: UInt8.self)
-        for _ in 0..<2 * rgbImageFormat.componentCount {
-            print(bufferPtr?.pointee)
-            bufferPtr = bufferPtr?.advanced(by: 1)
+        let bytePtr = argbSourceBuffer.data.assumingMemoryBound(to: UInt8.self)
+        for i in 0 ..< 2 * rgbImageFormat.componentCount {
+            print(bytePtr[i])
         }
+
     }
 
     deinit {
